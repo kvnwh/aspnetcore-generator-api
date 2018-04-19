@@ -24,6 +24,7 @@ namespace api.Controllers
             var config = mailServerConfigAccessor.Value;
             MAIL_HOST = config.Host;
             MAIL_PORT = config.Port;
+            Console.WriteLine("hello world");
         }
 
         [HttpPost]
